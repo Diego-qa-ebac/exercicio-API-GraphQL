@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cypress": "^13.15.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2",
+    "pactum": "^3.7.3"
+  },
+  "name": "exercicio-api-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/**/*.cy.js"
+  },
+  "keywords": [],
+  "author": "Diego Portella",
+  "license": "ISC",
+  "description": "Exercicio EBAC"
+}
