@@ -13,7 +13,7 @@ describe('Addresses', () => {
         await req(API_URL)
         .get('addresses')
         .set('Accept', 'application/json')
-        .set('Authorization', `Bearer ${token}`)
+        .set('Authorization', token)
         .then(response=>{
             expect(response.statusCode).toEqual(200)
             expect(response.body).toBeInstanceOf(Array)
